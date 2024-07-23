@@ -1,0 +1,33 @@
+DATABASE
+DB_NAME:  medi-home
+LINK:   http://localhost/phpmyadmin/index.php?route=/&reload=1
+           ---------------------
+PROJECT_LINK:http://localhost/MEDI-HOME
+-------------------------------------------------------------------------
+
+LOGIN DETAILS
+Chemist
+EMAIL:Usman33@gmail.com
+Password:u122
+EMAIL:Usman334@gmail.com
+Password:u112
+DOCTORS
+EMAIL:AYAN33@gmail.com
+Password:u234
+EMAIL:AYAN334@gmail.com
+Password:u223
+PATIENT:
+EMAIL:ALYANA33@gmail.com
+Password:u39
+EMAIL:ALYANA334@gmail.com
+Password:u349
+
+----------------------------------------------------
+
+panadol
+panadol extra
+disprin
+sezonal 
+brufen tablet
+Irolic-XT
+AMARLT

@@ -1,0 +1,155 @@
+*{
+
+	font-family: "Poppins", sans-serif;
+}
+#heads{
+	background-color: #333;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+   color: white;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+a{
+  list-style-type: none;
+}
+
+li a {
+  display: block;
+ 
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+ color: white;
+ background-color: #111;
+}
+li a i.fa{
+	padding-right: 4px;
+}
+li a:active{
+  color: white;
+  background-color: white;
+}
+li a:link{
+  color:rgb(192,192,192); /*unvisited link */
+}
+li a:visited{
+  color: rgb(255, 255, 255); /* visited link*/
+}
+/*table */
+
+/* table coding */
+/* table show */
+
+/*table*/
+.card-header{
+ font-family: 'Oswald', sans-serif;
+}
+  #s{
+    padding-top: 30px;
+  
+        width: auto;
+
+        overflow-x: auto;
+        margin-bottom: 20px;
+           font-family: 'Oswald', sans-serif;
+    }
+   #example  {
+   font-family: 'Oswald', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+     overflow-x: auto;
+     padding-top: 10px;
+  }
+ #u{ /*icons  */
+  color: #800080;
+  padding-right: 5px;
+}
+
+  #example  td, 
+  #example  th {
+
+    border: 1px solid #ddd;
+    padding: 8px;
+     font-family: 'Oswald', sans-serif;
+  }
+  
+
+  #example  tr:nth-child(even){background-color: #f2f2f2;}
+  
+ 
+  #example  tr:hover {background-color: #ddd;}
+  
+  #example th {
+       
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #21e6d2;
+    color: rgb(8, 1, 1);
+     font-family: 'Oswald', sans-serif;
+  }
+ #selc{
+    margin-top: 10px;
+    width: 100%;
+  }
+  div.dataTables_wrapper div.dataTables_filter input {
+    margin-left: 0.5em;
+    display: inline-block;
+    width: 500px;
+  font-family: 'Oswald', sans-serif;
+}
+.Export{
+	padding-bottom: 3px;
+}
+/*insert*/
+
+/* inserted php */
+#insertedphp{
+   width: auto;
+   height: auto;
+  margin-top: 20px;
+ margin-left: 50px;
+
+
+}
+#h11{
+   font-family: 'Oswald', sans-serif;
+   font-size: 30px;
+
+}
+
+#insertedphp label{
+  font-family: 'Oswald', sans-serif;
+}
+#submits{
+  margin: 10px;
+}
+#submits i:fa{
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: darkgray;
+}
+.label{
+  padding-bottom: 10px;
+
+}
+.input{
+  margin: 5px;
+}
+.card-header{
+  background-color: #E7E9EB;
+  font-family: 'Oswald', sans-serif;
+}
+
+

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: "Poppins", sans-serif;
+}
+.side-bar{
+    /* rgb(102,51,153)
+    rgba(102,0,153,0.8)*/
+    background:  #75D5CA; /*BACKGROUND_COLOR*/
+    backdrop-filter: blur(15px); /* CSS property lets you apply graphical effects such as blurring or color shifting to the area behind an element. */
+ width: 280px;
+ height: 100vh;
+ position: fixed;
+ top: 0;
+ left: -100%; /*hide */
+ overflow-y: auto;
+ transition: 0.6s ease;
+ transition-property: left;
+}
+.side-bar.active{
+ left: 0;
+}
+
+.side-bar .menu{
+ width: 100%;
+ margin-top: 40px;
+}
+.side-bar .menu .item{
+    position: relative;
+    cursor: pointer;}
+   .side-bar .menu .item a{
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    display: block;
+    padding: 5px 30px;/*5px top & bottom
+                            right & left*/
+    line-height: 60px;
+   }
+   .side-bar .menu .item a:hover{
+    background: #449C9D;
+    transition: 0.3s ease;
+    border-radius: 10px 40px 10px; /*1st top 2st right & left 3rd bottom*/
+   }
+   .side-bar .menu .item i{
+    margin-right: 10px;
+   }
+   .side-bar .menu .item a .dropdown{/*arrow functionality*/
+    position: absolute;
+    right: 0;
+    margin:25px;
+    transition: 0.3s ease;
+   }
+   .side-bar .menu .item .sub-menu{
+    background: rgba(255, 255, 255, 0.1);
+    display: none;
+   }
+   .side-bar .menu .item .sub-menu a{
+    padding-left: 30px;
+   }
+   .rotate{
+    transform: rotate(90deg);
+   }
+   .close-btn{
+    position: absolute;
+    color: #fff;
+    font-size: 20px;
+    right: 0;
+    margin: 15px;
+    cursor: pointer;}
+   .menu-btn{
+    position: absolute;
+    color: #75D5CA;
+    font-size: 20px;
+    margin: 20px; /*margin   */
+    cursor: pointer;
+   }
+       @media (max-width: 900px){
+        .main h1{
+          font-size: 40px;
+          line-height: 60px;
+        }
+       }

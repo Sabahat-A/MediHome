@@ -1,0 +1,56 @@
+body{
+    background: url(../IMAGES/s.png);
+    background-repeat: no-repeat;
+ 
+  background-size: contain;
+  overflow-x: hidden;
+  
+}
+.login h1 {
+  font-weight: bold;
+   text-align: center;
+   color: #FF9FC5;
+}
+ h1{
+    font-family: 'Oswald', sans-serif;
+}
+.login {
+    border-radius: 6px;
+}
+
+input .form-control{
+    width: auto;
+    padding-left: 90px;
+}
+.container{
+    width: 700px;
+
+}
+form{
+    height: 400px;
+   
+}
+form .loginbtn{
+    color: #010002;
+   font-size: 20px;
+ background-color: #F8F7FA;
+   text-transform: uppercase;
+   border: none;
+}
+form .fact{
+    color: rgba(49, 44, 39, 0.5);
+    text-shadow: -1px 0 rgb(196, 17, 17), 0 1px rgb(33, 30, 235), 1px 0 rgb(224, 34, 123), 0 -1px rgb(209, 14, 14);
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+form label{
+    font-family: 'Oswald', sans-serif;
+}
+#borderRad{
+    border:2px solid rgb(189, 183, 183);
+    border-radius: 40px  0px 40px 0px;
+}
+#eye:hover{
+    transform: rotate(40deg);
+}

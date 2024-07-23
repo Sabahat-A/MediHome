@@ -1,0 +1,49 @@
+*{
+
+	font-family: "Poppins", sans-serif;
+	/*font-family: 'Oswald', sans-serif;*/
+
+}
+body{
+ background-color: rgba(189,189,189,0.2);
+
+}
+#headbar{
+font-family: 'Oswald', sans-serif;
+text-transform: capitalize;
+background-image: linear-gradient(to right,Purple , Teal , Purple,#FF9FC5 );
+
+
+}
+/* now start dashboard codeing*/
+.DashB{
+	text-align: center;
+	height: 150px;
+	width: 250px;
+	display: inline-block;
+	margin-left: 50px;
+}
+.DashB i.fa{
+	margin-top: 10px;
+	color: rgb(183,173,231);
+	margin-left: 10px;
+	border: none;
+	font-size: 70px;
+	margin-bottom: 15px;
+}
+.DashB i.cols{
+	color: darkblue;
+}
+
+.DashB a{
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+  font-family: 'Oswald', sans-serif;
+  
+}
+.DashB a:hover{
+color: darkblue;
+
+}
+
